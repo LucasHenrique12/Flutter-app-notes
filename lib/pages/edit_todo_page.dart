@@ -8,6 +8,7 @@ class EditTodoPage extends StatefulWidget {
   State<EditTodoPage> createState() => _EditTodoPageState();
 }
 
+//textfield
 class _EditTodoPageState extends State<EditTodoPage> {
   final TextEditingController titleController = TextEditingController();
   final TextEditingController linkController = TextEditingController();
